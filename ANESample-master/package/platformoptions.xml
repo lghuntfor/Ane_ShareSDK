@@ -1,0 +1,34 @@
+<platform xmlns="http://ns.adobe.com/air/extension/17.0">
+    <description >ShareSDK Extension</description>
+    <copyright>ShareSDK 2014 (optional)</copyright>
+    <sdkVersion>7.0</sdkVersion>
+    <linkerOptions>
+        <option>-w</option>
+        <option>-ios_version_min 4.3</option>
+        <option>-framework Foundation</option>
+        <option>-framework CoreTelephony</option>
+        <option>-framework MessageUI</option>
+        <option>-framework SystemConfiguration</option>
+        <option>-framework QuartzCore</option>
+        <option>-lz.1.2.5</option>
+        <option>-licucore</option>
+        <option>-lstdc++</option>
+        <option>-lsqlite3</option>
+        <option>-framework Security</option>
+        <option>-framework ImageIO</option>
+        <option>-framework Social</option>
+        <option>-framework Accounts</option>
+    </linkerOptions> 
+    <packagedDependencies>
+        <packagedDependency>ShareSDK/Core/AGCommon.framework</packagedDependency>
+        <packagedDependency>ShareSDK/Core/ShareSDKCoreService.framework</packagedDependency>
+        <packagedDependency>ShareSDK/ShareSDK.framework</packagedDependency>
+        <packagedDependency>ShareSDK/Connection/SinaWeiboConnection.framework</packagedDependency>
+        <packagedDependency>ShareSDK/Connection/QZoneConnection.framework</packagedDependency>
+        <packagedDependency>ShareSDK/Connection/QQConnection.framework</packagedDependency>
+        <packagedDependency>ShareSDK/Connection/WeChatConnection.framework</packagedDependency>
+        <packagedDependency>ShareSDK/UI/ShareSDKFlatShareViewUI.framework</packagedDependency>
+        <packagedDependency>ShareSDK/UI/ShareSDKShareActionSheet.framework</packagedDependency>
+        <packagedDependency>ShareSDK/Extend/QQConnectSDK/TencentOpenAPI.framework</packagedDependency>
+    </packagedDependencies>
+</platform>
